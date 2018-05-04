@@ -1,9 +1,10 @@
 Package: multiple
-Title: What the Package Does (one line, title case)
+Title: This package does incredible things dude !
 Version: 0.0.0.9000
 Authors@R: person("Mufasa", "Nietzsche", email = "mufasa.niezsche@zaza.com", role = c("aut", "cre"))
 Description: The package does incredible things dude !
 Depends: R (>= 3.4.1)
-License: GNU
+License: GNU General Public License
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1

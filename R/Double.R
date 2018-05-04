@@ -1,0 +1,19 @@
+#' Double
+#'
+#' Comput the Double value of a vector
+#'
+#' The Double is calculated by multiplying each value by 2
+#'
+#' @param x A numeric vector
+#'
+#' @return A vector containing the Double values
+#' @export
+#'
+#' @examples
+#' Double(runif(3))
+
+Double <- function(x){
+  if(!is.numeric(x))
+    stop("A numeric object Dude! Pleeeaaaaase!!!")
+  return(2L*x)
+}
